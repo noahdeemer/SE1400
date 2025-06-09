@@ -177,9 +177,43 @@ nav a:hover {
 
 
 
+form {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 0.75rem;
+}
 
+label {
+  text-align: right;
+  padding: 10px;
+}
 
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  color: #666;
+  background-color: #fafafa;
+  border: none;
+}
 
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+#mySubmit {
+  grid-column: 2 / 3;
+  width: 10rem;
+}
+
+#alumnihero {
+  background-image: url("alumnihero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
 
 
 
