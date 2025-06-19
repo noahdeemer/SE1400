@@ -134,6 +134,7 @@ nav a {
     display: block;
     text-align: center;
     text-decoration: none;
+    transition: background-color ease-out 0.5s;
 }
 
 
